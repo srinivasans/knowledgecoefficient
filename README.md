@@ -1,2 +1,2 @@
-kc
+This is Knowledge Coefficient's  README file having the details of the project...
 ==
