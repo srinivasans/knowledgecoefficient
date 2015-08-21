@@ -1,0 +1,501 @@
+body.blue
+{
+min-width:1200px;
+max-width:1500px;
+min-height: 545px;
+max-height: 1000px;
+//min-height:650px;
+margin:0px auto;
+//background:url("http://localhost/blog/background.png");
+height:100%;
+background:#0B366E;
+display:block;
+}
+
+div.wrapper
+{
+width:100%;
+min-height:565px;
+}
+
+div.head
+{
+background:rgba(0,0,0,0.2);
+padding-top:10px;
+height:35px;
+padding-bottom:10px;
+padding-left:200px;
+}
+
+div.header
+{
+background:#0B366E;
+padding-top:10px;
+height:35px;
+padding-bottom:10px;
+padding-left:200px;
+}
+
+div.logo
+{
+background:url("http://localhost/blog/logo3.png");
+width:32px;
+height:32px;
+text-indent:-999em;
+display:inline-block;
+}
+
+a.title:hover
+{
+opacity:0.8;
+}
+
+div.company_name
+{
+background:url("http://localhost/blog/logo23.png");
+width:280px;
+height:32px;
+display:inline-block;
+vertical-align:top;
+}
+
+div.help
+{
+float:right;
+color:#FFFFFF;
+padding:5px;
+font-family:tahoma;
+font-size:17px;
+}
+
+div.content_wrapper
+{
+width:85%;
+margin:50px auto;
+position:relative;
+border-radius:10px;
+padding:10px;
+text-align:center;
+}
+
+
+div.forms
+{
+margin:0px auto;
+display:inline-block;
+vertical-align:top;
+}
+
+div.form_wrap
+{
+width:350px;
+height:325px;
+background:transparent;
+border-radius:5px;
+text-align:center;
+}
+
+ul
+{
+padding:0px;
+margin-top:5px;
+list-style-type:none;
+}
+
+
+
+li.footer_item
+{
+display:inline-block;
+font-family:Helvetica;
+font-size:11px;
+color:rgba(255,255,255,0.5);
+padding-right:10px;
+cursor:pointer;
+}
+
+li.footer_item:hover
+{
+color:#FFFFFF;
+}
+
+li.copyright
+{
+color:rgba(255,255,255,0.25);
+cursor:text;
+}
+
+li.copyright:hover
+{
+color:rgba(255,255,255,0.25);
+}
+
+
+div.head_container
+{
+width:83%;
+}
+
+div.tabs_wrap
+{
+margin:0px;
+background:transparent;
+width:100%;
+height:35px;
+font-family:"Droid sans",tahoma;
+font-size:15px;
+font-weight:bold;
+text-align:center;
+}
+
+div.tab
+{
+width:100px;
+height:20px;
+margin:0px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+background:#0B366E;
+display:inline-block;
+float:left;
+padding:7px;
+margin-right:5px;
+color:#FFFFFF;
+cursor:pointer;
+}
+
+#main-wrap
+{
+margin:0px auto;
+text-align:center;
+min-height:400px;
+}
+
+div.inactive_tab
+{
+background:rgba(11,54,110,0.7);
+}
+
+div.login
+{
+padding-top:40px;
+border:1px solid #0B366E;
+background:rgba(11, 54, 110,0.1);
+}
+
+table
+{
+margin:0px auto;
+}
+
+td
+{
+padding:5px;
+}
+
+input.text_input
+{
+width:250px;
+padding:3px;
+height:20px;
+border-radius:3px;
+border:1px solid #0B366E;
+-webkit-box-shadow:inset 0 1px 0 #eee,#fff 0 1px 0;
+box-shadow:inset 0 1px 0 #eee,#fff 0 1px 0;
+}
+
+input.text_input:focus
+{
+border:1px solid #B8B8B8;
+-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+}
+
+.login_btn
+{
+width:80px;
+height:30px;
+   background-color: #377A1C; 
+   background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4BC41B), to(#377A1C));
+   background-image: -webkit-linear-gradient(top, #4BC41B, #377A1C); 
+   background-image:    -moz-linear-gradient(top, #4BC41B, #377A1C);
+   background-image:     -ms-linear-gradient(top, #4BC41B, #377A1C);
+   background-image:      -o-linear-gradient(top, #4BC41B, #377A1C);
+   color:#FFFFFF;
+   font-weight:bold;
+   font-family:"Droid sans";
+   border-radius:3px;
+   border:1px solid #377A1C;
+   cursor:pointer;
+}
+
+.login_btn:hover
+{
+   background-color: #377A1C; 
+   background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#419E1C), to(#377A1C));
+   background-image: -webkit-linear-gradient(top, #419E1C, #377A1C); 
+   background-image:    -moz-linear-gradient(top, #419E1C, #377A1C);
+   background-image:     -ms-linear-gradient(top, #419E1C, #377A1C);
+   background-image:      -o-linear-gradient(top, #419E1C, #377A1C);
+}
+
+div.forgot_pass
+{
+display:inline-block;
+padding:10px;
+float:left;
+font-size:12px;
+font-family:tahoma;
+color:#999999;
+}
+
+div.forgot_pass:hover
+{
+color:#222222;
+text-decoration:underline;
+}
+
+div.signup
+{
+padding-top:20px;
+display:none;
+border:1px solid #0B366E;
+background:rgba(11, 54, 110,0.1);
+}
+
+.signup_btn
+{
+width:120px;
+height:30px;
+   background-color: #F28B05; 
+   background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F2D705), to(#F28B05));
+   background-image: -webkit-linear-gradient(top, #F2D705, #F28B05); 
+   background-image:    -moz-linear-gradient(top, #F2D705, #F28B05);
+   background-image:     -ms-linear-gradient(top, #F2D705, #F28B05);
+   background-image:      -o-linear-gradient(top, #F2D705, #F28B05);
+   color:#333333;
+   font-weight:bold;
+   font-family:"Droid sans";
+   border-radius:3px;
+   border:1px solid #F28B05;
+   cursor:pointer;
+}
+
+.signup_btn:hover
+{
+   background-color: #F2D705; 
+   background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F2AB05), to(#F28B05));
+   background-image: -webkit-linear-gradient(top, #F2AB05,#F28B05); 
+   background-image:    -moz-linear-gradient(top, #F2AB05, #F28B05);
+   background-image:     -ms-linear-gradient(top, #F2AB05,#F28B05);
+   background-image:      -o-linear-gradient(top,#F2AB05, #F28B05);
+}
+
+body.main
+{
+min-width:1200px;
+max-width:1500px;
+min-height: 545px;
+max-height: 1000px;
+//min-height:650px;
+margin:0px auto;
+height:100%;
+display:block;
+background:rgba(11,54,110,0.1);
+}
+
+div.content_wrap
+{
+background:#FFFFFF;
+width:70%;
+min-height:600px;
+margin:50px auto;
+border-radius:10px;
+border:1px solid #B8B8B8;
+}
+
+div.page_bold
+{
+font-weight:bold;
+font-family:"Adobe Gothic Std B";
+font-size:20px;
+padding:50px;
+text-shadow:1px 1px #B8B8B8;
+}
+
+div.signup_box
+{
+width:80%;
+margin:0px auto;
+}
+
+input.signup
+{
+width:400px;
+height:23px;
+}
+
+.pass_validate,.fname_validate,.lname_validate,.confirm_pass_validate,.email_validate,.school_validate
+{
+width:200px;
+font-family:helvetica;
+font-size:12px;
+color:#555555;
+}
+
+.validate_cleared
+{
+background:url("http://localhost/blog/tick_icon.png");
+background-repeat:no-repeat;
+color:rgb(51, 153, 0);
+padding-left:20px;
+}
+
+.validate_error
+{
+background:url("http://localhost/blog/stop_icon.png");
+background-repeat:no-repeat;
+color:#FF2222;
+padding-left:20px;
+}
+
+.error
+{
+background:url("http://localhost/blog/stop_icon.png");
+background-repeat:no-repeat;
+padding-left:20px;
+height:15px;
+color:#FF2222;
+display:none;
+font-family:tahoma;
+font-size:12px;
+}
+
+div.paragraph
+{
+font-family:"helvetica";
+font-size:15px;
+padding-top:0px;
+padding-left:100px;
+text-shadow:1px 1px #B8B8B8;
+}
+
+div.small_paragraph
+{
+font-family:"helvetica";
+font-size:12px;
+padding-top:20px;
+padding-left:100px;
+color:#444444;
+}
+
+div.header_login
+{
+font-family:'helvetica';
+font-size:14px;
+float:right;
+display:inline-block;
+color:#DDDDDD;
+padding-top:8px;
+cursor:pointer;
+}
+
+div.header_login:hover
+{
+color:#FFFFFF;
+}
+
+div.header_login_box
+{
+padding-top:30px;
+width:280px;
+height:150px;
+background:#FFFFFF;
+position:absolute;
+top:45px;
+left:426px;
+margin-right:auto;
+right:10px;
+border:1px solid #B8B8B8;
+box-shadow:1px 1px 1px rgba(30,30,40,0.2);
+border-radius:3px;
+display:none;
+}
+
+input.header_login
+{
+width:200px;
+height:22px;
+}
+
+div.caret_up
+{
+transform:rotate(180deg);
+-ms-transform:rotate(180deg); /* IE 9 */
+-moz-transform:rotate(180deg); /* Firefox */
+-webkit-transform:rotate(180deg); /* Safari and Chrome */
+-o-transform:rotate(180deg); /* Opera */
+background:url("http://localhost/blog/arrow_down.png");
+position:absolute;
+top:-15px;
+right:68px;
+height:20px;
+width:15px;
+}
+
+div.header_login_box_wrap
+{
+position:absolute;
+display:inline-block;
+}
+
+div.welcome_message
+{
+margin-top:260px;
+text-align:left;
+padding-left:20px;
+font-family:helvetica;
+font-size:18px;
+font-weight:bold;
+color:#DDDDDD;
+background:rgba(0,0,0,0.5);
+}
+
+div.inner_message
+{
+font-size:15px;
+font-weight:normal;
+}
+
+span.changes,.updates
+{
+color:#B8B8B8;
+font-family:helvetica;
+font-size:12px;
+cursor:pointer;
+padding-left:10px;
+}
+
+span.changes:hover,.updates:hover
+{
+color:#444444;
+}
+
+div.tour
+{
+font-family:helvetica;
+font-size:20px;
+width:40%;
+margin:50px auto;
+}
+
+input.login_page
+{
+width:350px;
+height:23px;
+}

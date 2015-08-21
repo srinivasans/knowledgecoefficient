@@ -1,0 +1,78 @@
+Sample Admin Login: email : admin@admin.com ,Pass: admin
+
+Elegant Design
+Nice and Easy get used to User interface
+Awesome Dashboard
+Notifications Dropdown
+
+Tests:
+
+Easy create Tests
+Keep Timed tests with Start Time, End Time and Time Limit (End Time is End of test Time , Time Limit is Time allowed for a single user)
+2 types of question view 
+1. Answer Fill sheet in OMR format
+2. answer next to question
+
+Keep tests Public, Private or Archived (Archived - always open)
+Have Sections in Tests eg: (Physics, Chem, Math)
+
+Have sub groups under sections eg.(Single Option Multi option)
+
+Add questions in a simple click way
+Wysiwyg editor to write questions : Supports Latex,Images and even Videos in questions
+
+4 Answer Types Supported (Single answwr,multiple choice, Match and Numerical ans)
+
+Give Tags for your questions which will be used in showing the final analytics based on Topics of the question
+
+Set Answers in the same neat and elegant way with Detiled Solutions also
+
+Set Marking Scheme for each question (Correct/wrong/unanswered)
+
+Set your quiz On-board so that its ready to be published on dashboard and launch. Set o-board and the test starts automatically with the scheduled start time
+
+Create test permission given only to admin.
+A Test can have unlimited no. of questions
+
+
+Test User View:
+
+Awesome layout for neat attempts.
+Autosave enabled so that answers are saved regularly. with a save button also. Time left displayed on top. Test once started starts the timer for a user.
+Private test asks for passkey . Admin can set universal passkey or email based passkey for users. 
+
+<Describe about the User Interface>
+
+OnFinish evaluation starts and resulta are obtained. Solutions displayed is test is archive or test time over (TimeEnd). Get your marks and percentage. Get ranks and Percentile once test over.
+
+Analytics : Get nice graphical analysis of test performance. Chart based analytics with highest and average marks showm. Test analysis, Section wise, group wise and Tag-wise analysis for better understanding of performance.
+
+Admin Analytics:
+Nice and organised admin analytics.
+Admin gets to see the number of users and User based analytics where user reports and individual performances can be viewed with export option.
+Question based analytics where admin gets to see the % of users answered the question correct/wrong and tag based analysis too..
+
+Admin gets to see average, highest marks
+
+Share test option, Generate Ranks option so that admin can initiate rank generation once certain number of users reached
+
+Private tests generate Universal passkey and import of email based passkeys
+
+Notifications bar giving details of analysis and evaluation.. 
+
+Quizzes:
+
+Quizzes hav all features of tests except:
+
+Only 25 questions allowed
+No section or groups
+Has 2 view types : 1.One by one with one question viewed each tym and 2.continuous
+
+Has the embed option by which the quiz can be embed into any site with just copy paste of code given by us(In Admin analytics dashboard) .
+
+Any user can create a test until he has a gud amount of reputation. and he is the admin of that quiz. 
+
+KC Points and Reputation:
+Every user is given 100 reputation while starting . For creating a new quiz 100 reputation is required. On each attempt of the created quiz by a user the reputation of creator increases by 1. So if a creator gets 100 users for his quiz then his reputation is built and he has the ability to create one more...
+
+KC points is the users Knowledge Coefficient :P . It shows the users knowledge level based on the quizzes and tests attempted.. the points are awarded based on a clever algorithm using the percentage of marks obtained by the user in any test or quiz.
